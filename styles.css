@@ -1,0 +1,134 @@
+html,
+body,
+form {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.nav_container {    
+    text-align: right;
+    padding: 1%;
+}
+
+.nav_container > a {
+    margin: .6%;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav_container > a:hover {
+    text-decoration: underline;
+}
+
+.search_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+}
+
+.input {
+    padding-left: 40px; 
+    height: 7%;
+    width: 45%;
+    border-radius: 25px;   
+    border: 1px solid lightgrey;
+}
+.input:hover {
+    box-shadow: 1px 1px 5px .5px lightgray;
+}
+.input:focus { /* to remove blue outline on click */
+    outline: none;
+}
+
+.submit_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.submit_container > input {    
+    margin-top: 30px; 
+    margin-right: 13px;  
+    border-radius: 4px;
+    border: none; 
+    width: 130px;
+    height: 35px;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #5F6368; 
+}
+
+.submit_container > input:hover {
+    border: 1.2px solid lightgray;
+    color: black;
+}
+
+
+/* Advanced Search */
+
+.nav_bar {
+    width: 98%;
+    height: 35px;
+    background-color: #f1f1f1;  
+    
+    text-align: right;
+    padding: 1%;
+}
+.nav_bar > a {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav_bar > a:hover {
+    text-decoration: underline;
+}
+
+.under_nav_bar {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    height: 75px;
+    color: #d93025;
+    font-size: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced_search_container {         
+    padding-left: 45px;  
+}
+
+.advanced_search_container > div > * {
+    display: inline-block;    
+}
+
+.advanced_search_container > input[type=submit] {
+    background-color: #4d90fe;
+    color: white;
+    height: 30px;
+    padding: 0 12px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+}
+.advanced_search_container > input[type=submit]:hover {
+    background-color: #4584eb;
+}
+
+.left_side {
+    font-size: 13px;
+    color: #222222;
+}
+
+.right_side {
+    font-size: 11px;
+    color: #555555;
+}
+
+.adv_input {
+    width: 570px;
+    height: 25px;
+    border: 1px solid lightgrey;
+    padding-left: 10px;
+}

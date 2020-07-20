@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>            
+    <div class="nav_bar">
+        <a href="index.html">Search</a>
+    </div>
+    <div class="under_nav_bar">Advanced Search</div>
+
+    <div class="advanced_search_container" style="margin-top: 50px;">
+        <div>
+            <p style="margin-right: 572px; font-size: 16px;">Find pages with...</p>
+            <p style="font-size: 13px; color: #777777">To do this in the search box</p>
+        </div>
+    </div>
+
+    <form action="https://google.com/search">
+        <div class="advanced_search_container">
+            <div>
+                <p class="left_side">all these words:</p>
+                <input type="text" name="as_q" class="adv_input">
+                <p class="right_side">Type the important words: tricolor rat terrier</p>
+            </div>
+            <div>
+                <p class="left_side">this exact word or phrase:</p>
+                <input type="text" name="as_epq" class="adv_input">
+                <p class="right_side">Put exact words in quotes: "rat terrier"</p>
+            </div>
+            <div>
+                <p class="left_side">any of these words:</p>
+                <input type="text" name="as_oq" class="adv_input">
+                <p class="right_side">Type OR between all the words you want: miniature OR standard</p>
+            </div>
+            <div>
+                <p class="left_side">none of these words:</p>
+                <input type="text" name="as_eq" class="adv_input">
+                <p class="right_side">Put a minus sign just before words you don't want: -rodent, -"Jack Russell"</p>
+            </div>
+            <input type="submit" value="Advanced Search">
+        </div>
+    </form>
+            
+<!-- 
+    <div>
+        <p>Find pages with...</p>
+        <p>input</p>
+    </div>
+-->
+</body>
+
+</html>
